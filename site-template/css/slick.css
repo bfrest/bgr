@@ -67,7 +67,8 @@
 .slick-slide {
   display: none;
   float: left;
-  height: 100%;
+  height: auto;
+  max-height: fit-content;
   min-height: 1px;
 }
 [dir="rtl"] .slick-slide {
