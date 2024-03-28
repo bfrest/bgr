@@ -1139,11 +1139,11 @@ button:focus:not(:focus-visible) {
   }
 
   .header-image {
-    position: relative;
-    top: auto;
+    /* position: relative; */
+    /* top: auto; */
     bottom: 0;
-    left: 0;
-    width: auto;
+    right: 0;
+    width: 50vw;
     height: auto;
   }
 
