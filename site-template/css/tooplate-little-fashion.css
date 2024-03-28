@@ -1145,6 +1145,11 @@ button:focus:not(:focus-visible) {
     right: 0;
     width: 50vw;
     height: auto;
+    display: none;
+  }
+
+  .about-header-text {
+    text-align: center;
   }
 
   .slick-testimonial-caption {
