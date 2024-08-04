@@ -986,6 +986,24 @@ button:focus:not(:focus-visible) {
 }
 
 /*---------------------------------------
+  CUSTOM STYLES               
+-----------------------------------------*/
+
+.home-image-grid {
+  display: grid;
+  flex-direction: column;
+  gap: 50px 20px;
+  align-content: center;
+  justify-items: center;
+  width: 100%;
+  margin: 50px 0 0 0;
+}
+
+.thumbnail-wrapper {
+  width: 80%;
+}
+
+/*---------------------------------------
   SITE FOOTER               
 -----------------------------------------*/
 .site-footer {
